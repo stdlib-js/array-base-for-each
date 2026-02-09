@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-for-each@deno/mod.js';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-for-each@v0.1.1-deno/mod.js';
 ```
 
 #### forEach( x, fcn\[, thisArg] )
@@ -134,7 +134,7 @@ The callback function is provided the following arguments:
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
 import log from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log@deno/mod.js';
-import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-for-each@deno/mod.js';
+import forEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-for-each@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, 0, 10, {
     'dtype': 'float64'
